@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Good night", "Catch you later"],
+      "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot"],
+      "responses": ["You're welcome!", "No problem!", "Anytime!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather", "Weather today", "Is it raining?", "How's the weather?"],
+      "responses": ["I don't have live weather info, but it looks sunny in your city!", "Check your local forecast for accurate weather."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Current time", "Tell me the time", "Time now?"],
+      "responses": ["I don't have a clock, but you can check your system clock!", "Check your watch or device for the current time."]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Make me laugh", "I want a joke", "Funny joke"],
+      "responses": ["Why don’t scientists trust atoms? Because they make up everything!", "Why did the math book look sad? Because it had too many problems!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help me", "I need assistance", "Can you help?", "Support"],
+      "responses": ["Sure! Ask me anything or type your question.", "I’m here to assist you! What do you need help with?"]
+    },
+    {
+      "tag": "smalltalk",
+      "patterns": ["How are you?", "How's it going?", "What's up?", "How do you feel?"],
+      "responses": ["I’m just a bot, but I’m functioning perfectly!", "Doing great! How about you?", "I’m here to chat with you anytime!"]
+    }
+  ]
+}
