@@ -17,22 +17,34 @@ def home(request):
 def get_bot_response(request):
     try:
         data = json.loads(request.body)
-        user_text = data.get('msg', '').strip()
+
+        # support both keys (Postman + frontend)
+        user_text = data.get('user_message', data.get('msg', ''))
+        user_text = user_text.strip() if isinstance(user_text, str) else ''
+
     except (json.JSONDecodeError, AttributeError):
         user_text = ''
 
     if not user_text:
         return JsonResponse({
-            'response': "I didn't receive a message. Could you try again?"
+            'response': "I didn't receive a message. Could you try again?",
+            'source': 'none'
         })
 
-    response = get_response(user_text)
-    return JsonResponse({'response': response})
+    # CALL CHATBOT (returns dict now)
+    result = get_response(user_text)
+
+    return JsonResponse({
+        'response': result.get('response', ''),
+        'source': result.get('source', 'unknown')  
+    })
 
 
 @require_GET
 def get_departments(request):
-    departments = list(Department.objects.values('id', 'name', 'description'))
+    departments = list(
+        Department.objects.values('id', 'name', 'description')
+    )
     return JsonResponse({'departments': departments})
 
 

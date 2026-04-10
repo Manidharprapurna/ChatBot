@@ -5,4 +5,4 @@ class ChatConfig(AppConfig):
     name = 'chat'
 
     def ready(self):
-        print("[Chat App] Started. Local SLM will be loaded on the first request.")
+        print("[Chat App] Started. Vector store mode active.")
