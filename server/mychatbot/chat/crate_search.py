@@ -1,18 +1,27 @@
 from crate import client
 from sentence_transformers import SentenceTransformer
 
+# -----------------------------
+# CONNECT TO CRATEDB
+# -----------------------------
 conn = client.connect("http://localhost:4200", username="crate")
 cursor = conn.cursor()
 
+# -----------------------------
+# LOAD MODEL
+# -----------------------------
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
-def search_crate(query, k=3):
+# -----------------------------
+# KNN SEARCH
+# -----------------------------
+def search_cardiology(query, k=5):
     query_embedding = model.encode(query).tolist()
 
     cursor.execute(
         """
-        SELECT text, embedding <-> ? AS score
+        SELECT text, variations, embedding <-> ? AS score
         FROM cardiology_data
         ORDER BY score ASC
         LIMIT ?
@@ -22,16 +31,21 @@ def search_crate(query, k=3):
 
     rows = cursor.fetchall()
 
-    # filter + best result
-    if not rows:
-        return None
+    results = []
 
-    best_text, best_score = rows[0]
+    for row in rows:
+        text = row[0]
+        variations = row[1]
+        score = row[2]
 
-    print("Best score:", best_score)
+        # FILTER BAD MATCHES
+        if score > 1.2:
+            continue
 
-    # threshold (important)
-    if best_score > 1.2:   # smaller is better
-        return None
+        results.append({
+            "text": text,
+            "variations": variations,
+            "score": score
+        })
 
-    return best_text
+    return results

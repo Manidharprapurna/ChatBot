@@ -3,13 +3,13 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 
 # -----------------------------
-# CONNECTION
+# CONNECT
 # -----------------------------
 conn = client.connect("http://localhost:4200", username="crate")
 cursor = conn.cursor()
 
 # -----------------------------
-# LOAD MODEL
+# MODEL
 # -----------------------------
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
@@ -23,67 +23,44 @@ def cosine_sim(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
 
-# --------------------------------------------------
-# 1. SEARCH cardiology_data (VECTOR / EMBEDDING)
-# --------------------------------------------------
-def search_cardiology(query):
-    query_embedding = model.encode(query).tolist()
+# -----------------------------
+# SMART KNN SEARCH
+# -----------------------------
+def search_cardiology(query, k=5):
+    query_embedding = model.encode(query)
 
-    cursor.execute("SELECT text, embedding FROM cardiology_data")
+    cursor.execute("SELECT text, variations, embedding FROM cardiology_data")
     rows = cursor.fetchall()
 
-    best_result = None
-    best_score = -1
+    results = []
 
-    for text, emb in rows:
-        if not text or not emb:
+    for text, variations, emb in rows:
+        if not emb:
             continue
 
-        emb = np.array(emb)
         score = cosine_sim(query_embedding, emb)
 
-        if score > best_score:
-            best_score = score
-            best_result = text
+        results.append({
+            "text": text,
+            "variations": variations,
+            "score": score
+        })
 
-    print("Cardiology best score:", best_score)
+    # Sort by BEST similarity (higher is better)
+    results = sorted(results, key=lambda x: x["score"], reverse=True)
 
-    # threshold
-    if best_score < 0.3:
-        return None
+    if not results:
+        return []
 
-    return best_result
+    # -----------------------------
+    # SMART FILTER
+    # -----------------------------
+    best_score = results[0]["score"]
 
+    filtered = []
 
-# --------------------------------------------------
-# 2. SEARCH chat_logs (FAQ / KEYWORD MATCH)
-# --------------------------------------------------
-def search_chat_logs(query):
-    query = query.lower()
+    for item in results:
+        if item["score"] >= best_score - 0.1:
+            filtered.append(item)
 
-    cursor.execute("SELECT message, response FROM chat_logs")
-    rows = cursor.fetchall()
-
-    best_match = None
-    best_score = 0
-
-    for message, response in rows:
-        if not message or not response:
-            continue
-
-        message_lower = message.lower()
-
-        #keyword scoring
-        score = sum(1 for word in query.split() if word in message_lower)
-
-        if score > best_score:
-            best_score = score
-            best_match = response
-
-    print("ChatLogs best score:", best_score)
-
-    # threshold
-    if best_score < 2:
-        return None
-
-    return best_match
+    return filtered[:k]

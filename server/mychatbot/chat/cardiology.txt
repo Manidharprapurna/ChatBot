@@ -1,130 +1,1124 @@
 [
   {
     "id": 1,
-    "text": "Cardiology is a branch of medicine that focuses on the study, diagnosis, and treatment of disorders related to the heart and the cardiovascular system, which includes blood vessels. The heart is a vital muscular organ responsible for pumping oxygen-rich blood throughout the body and removing carbon dioxide and other waste products."
+    "topic": "cardiology",
+    "type": "definition",
+    "text": "Cardiology is a branch of medicine that focuses on the study, diagnosis, and treatment of heart and blood vessel disorders.",
+    "variations": [
+      "Cardiology deals with conditions related to the heart and blood vessels.",
+      "It is a medical field focused on heart health and cardiovascular diseases.",
+      "This branch studies and treats heart-related conditions."
+    ]
   },
   {
     "id": 2,
-    "text": "The heart consists of four chambers—two atria and two ventricles—along with valves that regulate blood flow and ensure it moves in the correct direction. The proper functioning of the heart is essential for sustaining life, and any disruption can lead to serious health conditions."
+    "topic": "cardiology",
+    "type": "anatomy",
+    "text": "The heart is a muscular organ responsible for pumping oxygen-rich blood throughout the body.",
+    "variations": [
+      "The heart pumps blood to supply oxygen and nutrients to the body.",
+      "It is a vital organ that circulates blood across the body.",
+      "The heart plays a key role in maintaining blood circulation."
+    ]
   },
   {
     "id": 3,
-    "text": "Cardiology encompasses several specialized areas, including general cardiology, interventional cardiology, pediatric cardiology, and electrophysiology. These specializations allow cardiologists to diagnose and treat different types of heart conditions effectively."
+    "topic": "cardiology",
+    "type": "anatomy",
+    "text": "The heart consists of four chambers: two atria and two ventricles, which regulate blood flow.",
+    "variations": [
+      "There are four chambers in the heart that control blood circulation.",
+      "The heart is divided into two atria and two ventricles.",
+      "These chambers help maintain proper blood flow direction."
+    ]
   },
   {
     "id": 4,
-    "text": "General cardiology deals with the overall diagnosis and management of heart diseases, while interventional cardiology involves minimally invasive procedures such as angioplasty and stent placement to treat blocked arteries."
+    "topic": "cardiology",
+    "type": "diseases",
+    "text": "Common heart diseases include coronary artery disease, heart failure, arrhythmias, and hypertension.",
+    "variations": [
+      "Heart conditions include coronary artery disease and high blood pressure.",
+      "Common cardiovascular issues include arrhythmias and heart failure.",
+      "Various heart diseases affect blood flow and heart function."
+    ]
   },
   {
     "id": 5,
-    "text": "Pediatric cardiology focuses on heart conditions in infants and children, and electrophysiology studies the electrical activity of the heart to diagnose and treat arrhythmias or irregular heartbeats."
+    "topic": "cardiology",
+    "type": "symptoms",
+    "text": "Symptoms of heart problems include chest pain, shortness of breath, fatigue, and dizziness.",
+    "variations": [
+      "Common symptoms include chest discomfort and breathing difficulty.",
+      "Heart-related issues may cause fatigue and dizziness.",
+      "Signs of heart problems include pain, breathlessness, and weakness."
+    ]
   },
   {
     "id": 6,
-    "text": "Common cardiovascular diseases include coronary artery disease, heart failure, arrhythmias, hypertension, and valvular heart disease. Coronary artery disease occurs due to plaque buildup in arteries, which can lead to heart attacks."
+    "topic": "cardiology",
+    "type": "diagnosis",
+    "text": "Diagnostic tests include ECG, echocardiogram, stress tests, and blood tests.",
+    "variations": [
+      "Doctors use ECG and echocardiograms to diagnose heart conditions.",
+      "Heart tests include stress tests and blood analysis.",
+      "Various diagnostic tools help detect heart problems."
+    ]
   },
   {
     "id": 7,
-    "text": "Heart failure occurs when the heart cannot pump sufficient blood to meet the body's needs. Arrhythmias are abnormal heart rhythms, while hypertension refers to high blood pressure that increases strain on the heart."
+    "topic": "cardiology",
+    "type": "treatment",
+    "text": "Treatment may include lifestyle changes, medications, medical procedures, or surgery.",
+    "variations": [
+      "Heart conditions can be managed with medication and lifestyle changes.",
+      "Treatment options include procedures and surgical interventions.",
+      "Doctors may recommend lifestyle changes and treatments."
+    ]
   },
   {
     "id": 8,
-    "text": "Valvular heart disease involves damage or dysfunction of heart valves. These conditions can significantly impact blood flow and overall heart function."
+    "topic": "cardiology",
+    "type": "procedures",
+    "text": "Procedures such as angioplasty and stent placement help restore blood flow.",
+    "variations": [
+      "Angioplasty is used to open blocked arteries.",
+      "Stents help improve blood circulation in arteries.",
+      "These procedures restore proper blood flow."
+    ]
   },
   {
     "id": 9,
-    "text": "Symptoms of heart-related problems include chest pain, shortness of breath, fatigue, dizziness, palpitations, and swelling in the legs or ankles. Early detection of these symptoms is crucial for proper treatment."
+    "topic": "cardiology",
+    "type": "risk_factors",
+    "text": "Risk factors include smoking, unhealthy diet, lack of exercise, obesity, and stress.",
+    "variations": [
+      "Lifestyle factors like smoking and poor diet increase risk.",
+      "Lack of exercise and stress contribute to heart disease.",
+      "Obesity and unhealthy habits affect heart health."
+    ]
   },
   {
     "id": 10,
-    "text": "Diagnostic tests in cardiology include electrocardiograms (ECG), echocardiograms, stress tests, angiography, and blood tests to measure cholesterol levels and cardiac enzymes."
+    "topic": "cardiology",
+    "type": "prevention",
+    "text": "Prevention includes healthy diet, regular exercise, avoiding smoking, and regular checkups.",
+    "variations": [
+      "Maintaining a healthy lifestyle helps prevent heart disease.",
+      "Regular exercise and diet control are important for heart health.",
+      "Avoiding smoking and routine checkups reduce risk."
+    ]
   },
   {
     "id": 11,
-    "text": "Treatment in cardiology may involve lifestyle changes, medications, medical procedures, or surgery. Medications include drugs for blood pressure control, cholesterol reduction, and prevention of blood clots."
+    "topic": "cardiology",
+    "type": "emergency",
+    "text": "Chest pain, severe shortness of breath, and sudden dizziness may indicate a medical emergency.",
+    "variations": [
+      "These symptoms may require immediate medical attention.",
+      "Seek urgent care if experiencing severe chest discomfort.",
+      "This could be a serious condition needing immediate help."
+    ]
   },
   {
     "id": 12,
-    "text": "Procedures such as angioplasty and stent placement restore blood flow, while devices like pacemakers help regulate abnormal heart rhythms. Severe cases may require surgeries like bypass or valve replacement."
+    "topic": "cardiology",
+    "type": "advanced",
+    "text": "Advanced cardiology includes technologies like cardiac MRI, CT scans, and wearable monitoring devices.",
+    "variations": [
+      "Modern tools help monitor and diagnose heart conditions.",
+      "Advanced imaging techniques improve heart diagnosis.",
+      "Technology plays a key role in cardiology."
+    ]
   },
+
   {
     "id": 13,
-    "text": "Risk factors for heart disease include modifiable factors such as smoking, unhealthy diet, lack of exercise, obesity, and stress, as well as non-modifiable factors like age, genetics, and family history."
+    "topic": "cardiology",
+    "type": "definition",
+    "text": "Cardiology focuses on diagnosing and treating disorders of the cardiovascular system, including the heart and blood vessels.",
+    "variations": [
+      "It is the medical field that deals with heart and circulation problems.",
+      "Cardiology involves studying and managing heart-related diseases.",
+      "This branch handles conditions affecting the heart and blood flow."
+    ]
   },
   {
     "id": 14,
-    "text": "Prevention involves maintaining a healthy lifestyle, including a balanced diet, regular exercise, avoiding tobacco, limiting alcohol, managing stress, and regular medical checkups."
+    "topic": "cardiology",
+    "type": "symptoms",
+    "text": "Symptoms of heart disease may include chest discomfort, rapid heartbeat, swelling in legs, and fatigue.",
+    "variations": [
+      "Signs include chest pain, palpitations, and tiredness.",
+      "Heart issues can cause swelling, fatigue, and irregular heartbeat.",
+      "Common symptoms involve discomfort, breathlessness, and weakness."
+    ]
   },
+
   {
     "id": 15,
-    "text": "Cardiology plays a crucial role in reducing the global burden of heart disease and improving life expectancy. Advances in technology have improved diagnosis and treatment significantly."
+    "topic": "cardiology",
+    "type": "diseases",
+    "text": "Coronary artery disease occurs when arteries supplying blood to the heart become narrowed due to plaque buildup.",
+    "variations": [
+      "Blocked arteries reduce blood flow to the heart.",
+      "Plaque buildup can restrict circulation in heart arteries.",
+      "This condition limits oxygen supply to the heart."
+    ]
   },
   {
     "id": 16,
-    "text": "The heart operates through an electrical conduction system that includes the sinoatrial node, atrioventricular node, bundle of His, and Purkinje fibers, which coordinate heartbeats."
+    "topic": "cardiology",
+    "type": "diseases",
+    "text": "Arrhythmias are irregular heartbeats that can be too fast, too slow, or uneven.",
+    "variations": [
+      "Abnormal heart rhythms are known as arrhythmias.",
+      "The heart may beat irregularly in arrhythmia conditions.",
+      "These are disorders affecting the heart's rhythm."
+    ]
   },
   {
     "id": 17,
-    "text": "Disruptions in the electrical system can cause arrhythmias such as atrial fibrillation, ventricular tachycardia, or bradycardia. Cardiology also studies hemodynamics, which is the movement of blood through the body."
+    "topic": "cardiology",
+    "type": "diseases",
+    "text": "Hypertension is a condition where blood pressure is consistently higher than normal levels.",
+    "variations": [
+      "High blood pressure is called hypertension.",
+      "This condition increases strain on the heart.",
+      "It can lead to serious cardiovascular problems."
+    ]
   },
+
   {
     "id": 18,
-    "text": "Atherosclerosis is a condition where fatty deposits build up in arteries, reducing blood flow and increasing the risk of cardiovascular diseases."
+    "topic": "cardiology",
+    "type": "diagnosis",
+    "text": "An ECG records the electrical activity of the heart to detect abnormalities.",
+    "variations": [
+      "Electrocardiograms help identify heart rhythm issues.",
+      "ECG is used to monitor heart electrical signals.",
+      "It helps diagnose irregular heart activity."
+    ]
   },
   {
     "id": 19,
-    "text": "Advanced diagnostic tools include cardiac MRI, CT scans, Holter monitoring, nuclear cardiology, and transesophageal echocardiography for detailed heart analysis."
+    "topic": "cardiology",
+    "type": "diagnosis",
+    "text": "Echocardiography uses ultrasound waves to create images of the heart.",
+    "variations": [
+      "This test provides a visual image of heart structure.",
+      "Ultrasound is used to examine heart function.",
+      "It helps assess heart movement and valves."
+    ]
   },
+
   {
     "id": 20,
-    "text": "Biomarkers such as troponin, BNP, and CRP help detect heart damage, heart failure, and inflammation in the cardiovascular system."
+    "topic": "cardiology",
+    "type": "treatment",
+    "text": "Medications such as beta-blockers and ACE inhibitors help manage heart conditions.",
+    "variations": [
+      "Certain drugs help control heart function and blood pressure.",
+      "Medicines are used to regulate heart activity.",
+      "Pharmacological treatment supports heart health."
+    ]
   },
+
   {
     "id": 21,
-    "text": "Cardiac catheterization is an invasive procedure used to measure pressure in heart chambers and diagnose heart conditions accurately."
+    "topic": "cardiology",
+    "type": "procedures",
+    "text": "Pacemakers are devices used to regulate abnormal heart rhythms.",
+    "variations": [
+      "These devices help maintain a steady heartbeat.",
+      "Pacemakers control irregular heart activity.",
+      "They support proper heart rhythm."
+    ]
   },
   {
     "id": 22,
-    "text": "Pharmacological treatments include beta-blockers, ACE inhibitors, ARBs, calcium channel blockers, diuretics, antiplatelets, and anticoagulants."
+    "topic": "cardiology",
+    "type": "procedures",
+    "text": "Bypass surgery is performed to improve blood flow to the heart.",
+    "variations": [
+      "Surgery may be needed to restore circulation.",
+      "This procedure reroutes blood around blocked arteries.",
+      "It helps improve oxygen supply to the heart."
+    ]
   },
+
   {
     "id": 23,
-    "text": "Interventional procedures include percutaneous coronary intervention, transcatheter aortic valve replacement, and catheter ablation for treating arrhythmias."
+    "topic": "cardiology",
+    "type": "risk_factors",
+    "text": "Family history and genetics can increase the risk of heart disease.",
+    "variations": [
+      "Inherited factors play a role in heart conditions.",
+      "Genetics may influence cardiovascular risk.",
+      "Family background can affect heart health."
+    ]
   },
   {
     "id": 24,
-    "text": "Implantable devices such as pacemakers, implantable cardioverter-defibrillators, and cardiac resynchronization therapy devices are used in long-term heart management."
+    "topic": "cardiology",
+    "type": "risk_factors",
+    "text": "Diabetes increases the risk of cardiovascular diseases.",
+    "variations": [
+      "High blood sugar levels can damage blood vessels.",
+      "Diabetes is linked to heart complications.",
+      "It raises the likelihood of heart problems."
+    ]
   },
+
   {
     "id": 25,
-    "text": "Preventive cardiology focuses on early risk assessment using lipid profiles, blood pressure monitoring, and risk scoring systems like the Framingham Risk Score."
+    "topic": "cardiology",
+    "type": "prevention",
+    "text": "Regular physical activity helps maintain heart health.",
+    "variations": [
+      "Exercise improves cardiovascular fitness.",
+      "Staying active supports heart function.",
+      "Physical movement reduces heart disease risk."
+    ]
   },
   {
     "id": 26,
-    "text": "Lifestyle improvements such as adopting the Mediterranean diet, increasing physical activity, and stress management techniques like yoga contribute to heart health."
+    "topic": "cardiology",
+    "type": "prevention",
+    "text": "A balanced diet rich in fruits, vegetables, and whole grains supports heart health.",
+    "variations": [
+      "Healthy eating habits improve cardiovascular health.",
+      "Nutrition plays a key role in preventing heart disease.",
+      "Diet impacts heart function significantly."
+    ]
   },
+
   {
     "id": 27,
-    "text": "Cardiology is closely related to other medical fields such as endocrinology, nephrology, and pulmonology, especially in conditions like diabetes-related heart disease and pulmonary hypertension."
+    "topic": "cardiology",
+    "type": "advanced",
+    "text": "Wearable devices can monitor heart rate and detect irregularities.",
+    "variations": [
+      "Modern technology helps track heart activity.",
+      "Smart devices can monitor heart health in real time.",
+      "Wearables assist in early detection of issues."
+    ]
   },
   {
     "id": 28,
-    "text": "Congenital heart diseases are present from birth and often require long-term management and surgical intervention."
+    "topic": "cardiology",
+    "type": "advanced",
+    "text": "Artificial intelligence is being used to improve diagnosis in cardiology.",
+    "variations": [
+      "AI helps in early detection of heart conditions.",
+      "Technology enhances accuracy in diagnosis.",
+      "Advanced systems support cardiologists."
+    ]
   },
+
   {
     "id": 29,
-    "text": "Cardiology also deals with emergencies such as heart attacks, cardiac arrest, and acute heart failure, where immediate treatment is critical."
+    "topic": "cardiology",
+    "type": "emergency",
+    "text": "Heart attack symptoms include severe chest pain, sweating, nausea, and shortness of breath.",
+    "variations": [
+      "These signs may indicate a serious emergency.",
+      "Immediate medical attention is required in such cases.",
+      "These symptoms should not be ignored."
+    ]
   },
   {
     "id": 30,
-    "text": "Recent advancements include artificial intelligence for diagnosis, wearable devices for monitoring heart activity, telecardiology for remote care, and regenerative medicine for heart repair."
+    "topic": "cardiology",
+    "type": "emergency",
+    "text": "Cardiac arrest is a sudden loss of heart function and requires immediate CPR.",
+    "variations": [
+      "This is a life-threatening emergency.",
+      "Immediate action is necessary to save life.",
+      "CPR should be performed without delay."
+    ]
   },
+
   {
     "id": 31,
-    "text": "Genomic medicine is helping identify genetic risks for cardiovascular diseases, enabling personalized treatment approaches."
+    "topic": "cardiology",
+    "type": "anatomy",
+    "text": "The heart has a natural electrical system that controls the rate and rhythm of heartbeats.",
+    "variations": [
+      "Electrical signals regulate how the heart beats.",
+      "The heart's rhythm is controlled by its electrical system.",
+      "Heartbeat timing is managed by electrical impulses."
+    ]
   },
   {
     "id": 32,
-    "text": "Overall, cardiology is a rapidly evolving field that integrates clinical expertise, technology, and preventive care to improve patient outcomes and quality of life."
+    "topic": "cardiology",
+    "type": "anatomy",
+    "text": "Blood vessels include arteries, veins, and capillaries, which transport blood throughout the body.",
+    "variations": [
+      "Arteries, veins, and capillaries carry blood in the body.",
+      "Blood circulates through different types of vessels.",
+      "These vessels help in distributing blood efficiently."
+    ]
+  },
+
+  {
+    "id": 33,
+    "topic": "cardiology",
+    "type": "diseases",
+    "text": "Heart failure occurs when the heart is unable to pump enough blood to meet the body's needs.",
+    "variations": [
+      "This condition reduces the heart's pumping efficiency.",
+      "The heart cannot supply sufficient blood to the body.",
+      "It affects the body's oxygen supply."
+    ]
+  },
+  {
+    "id": 34,
+    "topic": "cardiology",
+    "type": "diseases",
+    "text": "Atherosclerosis is a condition where fatty deposits build up inside arteries.",
+    "variations": [
+      "Fat accumulation in arteries reduces blood flow.",
+      "This condition narrows arteries due to plaque buildup.",
+      "It can lead to reduced circulation."
+    ]
+  },
+
+  {
+    "id": 35,
+    "topic": "cardiology",
+    "type": "symptoms",
+    "text": "Swelling in the legs or ankles may indicate fluid retention due to heart problems.",
+    "variations": [
+      "Edema can be a sign of heart-related issues.",
+      "Fluid buildup in the body may indicate heart problems.",
+      "Swelling in lower limbs can be a symptom."
+    ]
+  },
+  {
+    "id": 36,
+    "topic": "cardiology",
+    "type": "symptoms",
+    "text": "Palpitations are sensations of a fast or irregular heartbeat.",
+    "variations": [
+      "Feeling a racing heart is known as palpitations.",
+      "Irregular heartbeat sensations are common symptoms.",
+      "These are noticeable changes in heart rhythm."
+    ]
+  },
+
+  {
+    "id": 37,
+    "topic": "cardiology",
+    "type": "diagnosis",
+    "text": "Stress tests evaluate how the heart performs during physical activity.",
+    "variations": [
+      "These tests measure heart response to exercise.",
+      "They help assess heart function under stress.",
+      "Stress testing reveals cardiovascular performance."
+    ]
+  },
+  {
+    "id": 38,
+    "topic": "cardiology",
+    "type": "diagnosis",
+    "text": "Angiography is used to visualize blood flow in coronary arteries.",
+    "variations": [
+      "This test helps detect blockages in arteries.",
+      "It provides images of blood circulation in the heart.",
+      "Doctors use it to examine artery conditions."
+    ]
+  },
+
+  {
+    "id": 39,
+    "topic": "cardiology",
+    "type": "treatment",
+    "text": "Lifestyle modifications such as quitting smoking and exercising regularly improve heart health.",
+    "variations": [
+      "Healthy habits can significantly benefit the heart.",
+      "Lifestyle changes play a major role in treatment.",
+      "Exercise and avoiding smoking improve outcomes."
+    ]
+  },
+  {
+    "id": 40,
+    "topic": "cardiology",
+    "type": "treatment",
+    "text": "Managing cholesterol levels helps reduce the risk of heart disease.",
+    "variations": [
+      "Lowering cholesterol supports heart health.",
+      "Controlling lipid levels reduces risk.",
+      "Cholesterol management is important for prevention."
+    ]
+  },
+
+  {
+    "id": 41,
+    "topic": "cardiology",
+    "type": "procedures",
+    "text": "Catheter ablation is used to treat abnormal heart rhythms.",
+    "variations": [
+      "This procedure corrects irregular heartbeats.",
+      "It targets faulty electrical signals in the heart.",
+      "Used to manage arrhythmias effectively."
+    ]
+  },
+  {
+    "id": 42,
+    "topic": "cardiology",
+    "type": "procedures",
+    "text": "Valve replacement surgery is performed when heart valves are severely damaged.",
+    "variations": [
+      "Damaged valves may need surgical replacement.",
+      "This procedure restores proper blood flow.",
+      "It is done in severe valve conditions."
+    ]
+  },
+
+  {
+    "id": 43,
+    "topic": "cardiology",
+    "type": "risk_factors",
+    "text": "Obesity increases the risk of heart disease by placing extra strain on the heart.",
+    "variations": [
+      "Excess weight affects cardiovascular health.",
+      "Obesity contributes to heart-related issues.",
+      "It increases pressure on the heart."
+    ]
+  },
+  {
+    "id": 44,
+    "topic": "cardiology",
+    "type": "risk_factors",
+    "text": "Stress can negatively impact heart health over time.",
+    "variations": [
+      "Chronic stress affects cardiovascular function.",
+      "Mental stress can increase heart risk.",
+      "Long-term stress harms heart health."
+    ]
+  },
+
+  {
+    "id": 45,
+    "topic": "cardiology",
+    "type": "prevention",
+    "text": "Regular health checkups help detect heart problems early.",
+    "variations": [
+      "Routine screenings improve early diagnosis.",
+      "Checkups help identify risks sooner.",
+      "Early detection improves outcomes."
+    ]
+  },
+  {
+    "id": 46,
+    "topic": "cardiology",
+    "type": "prevention",
+    "text": "Reducing salt intake helps control blood pressure.",
+    "variations": [
+      "Lower salt consumption benefits heart health.",
+      "Salt reduction helps manage hypertension.",
+      "It supports better cardiovascular control."
+    ]
+  },
+
+  {
+    "id": 47,
+    "topic": "cardiology",
+    "type": "advanced",
+    "text": "Cardiac MRI provides detailed images of heart structure and function.",
+    "variations": [
+      "MRI scans help analyze heart conditions.",
+      "It offers high-resolution heart imaging.",
+      "Used for advanced diagnosis."
+    ]
+  },
+  {
+    "id": 48,
+    "topic": "cardiology",
+    "type": "advanced",
+    "text": "Telecardiology enables remote monitoring and consultation for heart patients.",
+    "variations": [
+      "Remote care helps manage heart conditions.",
+      "Telemedicine supports cardiology services.",
+      "Patients can be monitored from a distance."
+    ]
+  },
+
+  {
+    "id": 49,
+    "topic": "cardiology",
+    "type": "emergency",
+    "text": "Severe chest pressure spreading to the arm or jaw may indicate a heart attack.",
+    "variations": [
+      "This requires immediate medical attention.",
+      "It could be a serious emergency condition.",
+      "Urgent care is necessary in such cases."
+    ]
+  },
+  {
+    "id": 50,
+    "topic": "cardiology",
+    "type": "emergency",
+    "text": "Sudden collapse or loss of consciousness can indicate cardiac arrest.",
+    "variations": [
+      "Immediate help is required in this situation.",
+      "This is a life-threatening emergency.",
+      "Emergency response should be initiated quickly."
+    ]
   }
 ]
+[
+  {
+    "id": 51,
+    "topic": "cardiology",
+    "type": "definition",
+    "text": "Cardiology involves the prevention, diagnosis, and treatment of disorders of the heart and blood vessels.",
+    "variations": [
+      "Cardiology focuses on heart and vascular health.",
+      "It is the study of heart-related diseases.",
+      "This field manages cardiovascular conditions."
+    ]
+  },
+  {
+    "id": 52,
+    "topic": "cardiology",
+    "type": "anatomy",
+    "text": "The heart wall consists of three layers: endocardium, myocardium, and epicardium.",
+    "variations": [
+      "The heart has three structural layers.",
+      "Endocardium, myocardium, and epicardium form the heart wall.",
+      "These layers support heart function."
+    ]
+  },
+  {
+    "id": 53,
+    "topic": "cardiology",
+    "type": "anatomy",
+    "text": "Valves in the heart ensure one-way blood flow and prevent backflow.",
+    "variations": [
+      "Heart valves control blood direction.",
+      "Valves prevent backward flow of blood.",
+      "They maintain proper circulation."
+    ]
+  },
+  {
+    "id": 54,
+    "topic": "cardiology",
+    "type": "diseases",
+    "text": "Myocardial infarction occurs when blood supply to part of the heart is blocked.",
+    "variations": [
+      "Heart attack happens due to blocked blood flow.",
+      "This condition damages heart muscle.",
+      "It results from reduced oxygen supply."
+    ]
+  },
+  {
+    "id": 55,
+    "topic": "cardiology",
+    "type": "diseases",
+    "text": "Cardiomyopathy is a disease of the heart muscle affecting its ability to pump blood.",
+    "variations": [
+      "Heart muscle disease is called cardiomyopathy.",
+      "It weakens heart pumping ability.",
+      "This condition affects heart performance."
+    ]
+  },
+  {
+    "id": 56,
+    "topic": "cardiology",
+    "type": "symptoms",
+    "text": "Shortness of breath during activity may indicate underlying heart disease.",
+    "variations": [
+      "Breathing difficulty can signal heart issues.",
+      "Dyspnea may be related to cardiac problems.",
+      "Reduced oxygen flow causes breathlessness."
+    ]
+  },
+  {
+    "id": 57,
+    "topic": "cardiology",
+    "type": "symptoms",
+    "text": "Fatigue can result from the heart not pumping efficiently.",
+    "variations": [
+      "Low energy may indicate heart problems.",
+      "Fatigue is common in cardiovascular issues.",
+      "Weakness may result from poor circulation."
+    ]
+  },
+  {
+    "id": 58,
+    "topic": "cardiology",
+    "type": "diagnosis",
+    "text": "Blood tests can measure cholesterol and enzyme levels to assess heart health.",
+    "variations": [
+      "Lab tests help detect heart conditions.",
+      "Blood analysis evaluates cardiovascular risk.",
+      "Cholesterol levels are checked in blood tests."
+    ]
+  },
+  {
+    "id": 59,
+    "topic": "cardiology",
+    "type": "diagnosis",
+    "text": "Holter monitoring records heart activity over 24 hours.",
+    "variations": [
+      "Portable ECG monitors heart rhythm continuously.",
+      "Holter devices track heart activity daily.",
+      "It helps detect irregular heartbeats."
+    ]
+  },
+  {
+    "id": 60,
+    "topic": "cardiology",
+    "type": "treatment",
+    "text": "Anticoagulants are medications used to prevent blood clots.",
+    "variations": [
+      "Blood thinners reduce clot formation.",
+      "These drugs prevent stroke risk.",
+      "They help maintain smooth blood flow."
+    ]
+  },
+  {
+    "id": 61,
+    "topic": "cardiology",
+    "type": "procedures",
+    "text": "Angioplasty uses a balloon to open blocked arteries.",
+    "variations": [
+      "This procedure restores blood flow.",
+      "Balloon dilation clears artery blockage.",
+      "Used in coronary artery disease."
+    ]
+  },
+  {
+    "id": 62,
+    "topic": "cardiology",
+    "type": "risk_factors",
+    "text": "High cholesterol contributes to plaque buildup in arteries.",
+    "variations": [
+      "Cholesterol increases heart disease risk.",
+      "It leads to artery narrowing.",
+      "High lipid levels affect circulation."
+    ]
+  },
+  {
+    "id": 63,
+    "topic": "cardiology",
+    "type": "prevention",
+    "text": "Maintaining a healthy weight reduces strain on the heart.",
+    "variations": [
+      "Weight control supports heart health.",
+      "Obesity prevention reduces risk.",
+      "Healthy weight improves circulation."
+    ]
+  },
+  {
+    "id": 64,
+    "topic": "cardiology",
+    "type": "advanced",
+    "text": "CT coronary angiography helps visualize coronary arteries.",
+    "variations": [
+      "CT scans detect artery blockages.",
+      "Imaging helps assess heart vessels.",
+      "Advanced scanning improves diagnosis."
+    ]
+  },
+  {
+    "id": 65,
+    "topic": "cardiology",
+    "type": "emergency",
+    "text": "Immediate CPR can save lives during cardiac arrest.",
+    "variations": [
+      "CPR is crucial in emergencies.",
+      "It maintains blood circulation temporarily.",
+      "Early action improves survival."
+    ]
+  },
+  {
+    "id": 66,
+    "topic": "cardiology",
+    "type": "definition",
+    "text": "Cardiology also involves managing chronic heart conditions over time.",
+    "variations": [
+      "It includes long-term heart care.",
+      "Cardiology deals with ongoing heart diseases.",
+      "This field manages chronic cardiovascular issues."
+    ]
+  },
+  {
+    "id": 67,
+    "topic": "cardiology",
+    "type": "anatomy",
+    "text": "The left ventricle pumps oxygenated blood to the entire body.",
+    "variations": [
+      "Left ventricle supplies blood to the body.",
+      "It is the main pumping chamber.",
+      "This chamber distributes oxygen-rich blood."
+    ]
+  },
+  {
+    "id": 68,
+    "topic": "cardiology",
+    "type": "anatomy",
+    "text": "The right atrium receives deoxygenated blood from the body.",
+    "variations": [
+      "Right atrium collects used blood.",
+      "It receives blood lacking oxygen.",
+      "This chamber handles incoming venous blood."
+    ]
+  },
+  {
+    "id": 69,
+    "topic": "cardiology",
+    "type": "diseases",
+    "text": "Congenital heart defects are abnormalities present at birth.",
+    "variations": [
+      "Heart defects can be present from birth.",
+      "These conditions affect newborns.",
+      "They are structural heart problems."
+    ]
+  },
+  {
+    "id": 70,
+    "topic": "cardiology",
+    "type": "diseases",
+    "text": "Endocarditis is an infection of the inner lining of the heart.",
+    "variations": [
+      "Heart lining infection is called endocarditis.",
+      "It affects heart valves and lining.",
+      "This infection can damage heart tissue."
+    ]
+  }
+]
+,
+{
+  "id": 71,
+  "topic": "cardiology",
+  "type": "symptoms",
+  "text": "Chest tightness may indicate reduced blood flow to the heart.",
+  "variations": [
+    "Tight chest feeling can signal heart issues.",
+    "It may indicate poor circulation.",
+    "This symptom needs medical evaluation."
+  ]
+},
+{
+  "id": 72,
+  "topic": "cardiology",
+  "type": "symptoms",
+  "text": "Cold sweats can be a warning sign of a heart attack.",
+  "variations": [
+    "Sudden sweating may indicate emergency.",
+    "Cold sweats are linked to heart problems.",
+    "This can signal serious condition."
+  ]
+},
+{
+  "id": 73,
+  "topic": "cardiology",
+  "type": "diagnosis",
+  "text": "Cardiac CT scans help detect blockages in coronary arteries.",
+  "variations": [
+    "CT imaging identifies artery narrowing.",
+    "Scans help detect heart vessel issues.",
+    "Used for advanced heart diagnosis."
+  ]
+},
+{
+  "id": 74,
+  "topic": "cardiology",
+  "type": "diagnosis",
+  "text": "MRI scans provide detailed images of heart tissues.",
+  "variations": [
+    "MRI gives high-resolution heart images.",
+    "Used for detailed heart analysis.",
+    "It helps assess structure and function."
+  ]
+},
+{
+  "id": 75,
+  "topic": "cardiology",
+  "type": "treatment",
+  "text": "Statins are used to lower cholesterol levels.",
+  "variations": [
+    "Cholesterol-lowering drugs are statins.",
+    "They reduce heart disease risk.",
+    "Used in cardiovascular treatment."
+  ]
+},
+{
+  "id": 76,
+  "topic": "cardiology",
+  "type": "treatment",
+  "text": "Diuretics help remove excess fluid from the body.",
+  "variations": [
+    "Water pills reduce fluid buildup.",
+    "They help manage swelling.",
+    "Used in heart failure treatment."
+  ]
+},
+{
+  "id": 77,
+  "topic": "cardiology",
+  "type": "procedures",
+  "text": "Coronary bypass surgery creates a new path for blood flow.",
+  "variations": [
+    "It reroutes blood around blockages.",
+    "This surgery improves circulation.",
+    "Used in severe artery blockage."
+  ]
+},
+{
+  "id": 78,
+  "topic": "cardiology",
+  "type": "procedures",
+  "text": "Defibrillators restore normal heart rhythm during emergencies.",
+  "variations": [
+    "These devices correct heart rhythm.",
+    "Used during cardiac arrest.",
+    "They deliver electric shocks."
+  ]
+},
+{
+  "id": 79,
+  "topic": "cardiology",
+  "type": "risk_factors",
+  "text": "Smoking damages blood vessels and increases heart risk.",
+  "variations": [
+    "Tobacco use harms cardiovascular health.",
+    "Smoking leads to artery damage.",
+    "It increases heart disease risk."
+  ]
+},
+{
+  "id": 80,
+  "topic": "cardiology",
+  "type": "risk_factors",
+  "text": "Sedentary lifestyle contributes to poor heart health.",
+  "variations": [
+    "Lack of exercise increases risk.",
+    "Inactive lifestyle harms the heart.",
+    "Physical inactivity affects circulation."
+  ]
+},
+{
+  "id": 81,
+  "topic": "cardiology",
+  "type": "prevention",
+  "text": "Regular walking improves cardiovascular fitness.",
+  "variations": [
+    "Walking benefits heart health.",
+    "Daily activity improves circulation.",
+    "Exercise reduces heart risk."
+  ]
+},
+{
+  "id": 82,
+  "topic": "cardiology",
+  "type": "prevention",
+  "text": "Limiting alcohol intake helps maintain heart health.",
+  "variations": [
+    "Alcohol moderation supports the heart.",
+    "Too much alcohol harms cardiovascular system.",
+    "Controlled intake reduces risk."
+  ]
+},
+{
+  "id": 83,
+  "topic": "cardiology",
+  "type": "advanced",
+  "text": "AI algorithms assist in predicting heart disease risk.",
+  "variations": [
+    "Artificial intelligence improves diagnosis.",
+    "Technology predicts heart conditions.",
+    "AI enhances medical decisions."
+  ]
+},
+{
+  "id": 84,
+  "topic": "cardiology",
+  "type": "advanced",
+  "text": "Remote monitoring systems track patient heart data continuously.",
+  "variations": [
+    "Monitoring devices track heart activity.",
+    "Remote systems improve patient care.",
+    "Used in telecardiology."
+  ]
+},
+{
+  "id": 85,
+  "topic": "cardiology",
+  "type": "emergency",
+  "text": "Severe breathlessness may require immediate medical attention.",
+  "variations": [
+    "Difficulty breathing can be serious.",
+    "Emergency care may be needed.",
+    "This symptom should not be ignored."
+  ]
+},
+{
+  "id": 86,
+  "topic": "cardiology",
+  "type": "emergency",
+  "text": "Loss of consciousness can indicate a cardiac emergency.",
+  "variations": [
+    "Fainting may signal heart issues.",
+    "Sudden collapse is dangerous.",
+    "Immediate care is needed."
+  ]
+},
+{
+  "id": 87,
+  "topic": "cardiology",
+  "type": "anatomy",
+  "text": "Arteries carry oxygen-rich blood away from the heart.",
+  "variations": [
+    "Arteries transport oxygenated blood.",
+    "They move blood from heart to body.",
+    "These vessels support circulation."
+  ]
+},
+{
+  "id": 88,
+  "topic": "cardiology",
+  "type": "anatomy",
+  "text": "Veins return deoxygenated blood back to the heart.",
+  "variations": [
+    "Veins carry blood to the heart.",
+    "They transport used blood.",
+    "These vessels complete circulation."
+  ]
+},
+{
+  "id": 89,
+  "topic": "cardiology",
+  "type": "diseases",
+  "text": "Stroke occurs when blood supply to the brain is interrupted.",
+  "variations": [
+    "Brain stroke results from blocked blood flow.",
+    "It is a serious condition.",
+    "This affects brain function."
+  ]
+},
+{
+  "id": 90,
+  "topic": "cardiology",
+  "type": "diseases",
+  "text": "Peripheral artery disease affects blood flow to limbs.",
+  "variations": [
+    "Reduced limb circulation is PAD.",
+    "It affects legs and arms.",
+    "This condition causes pain."
+  ]
+},
+{
+  "id": 91,
+  "topic": "cardiology",
+  "type": "diagnosis",
+  "text": "Blood pressure measurement helps detect hypertension.",
+  "variations": [
+    "BP check identifies high pressure.",
+    "Used to monitor heart health.",
+    "Important diagnostic test."
+  ]
+},
+{
+  "id": 92,
+  "topic": "cardiology",
+  "type": "diagnosis",
+  "text": "Lipid profile tests measure cholesterol levels in the blood.",
+  "variations": [
+    "Cholesterol test evaluates risk.",
+    "Blood test measures lipids.",
+    "Used in heart disease detection."
+  ]
+},
+{
+  "id": 93,
+  "topic": "cardiology",
+  "type": "treatment",
+  "text": "Beta-blockers reduce heart rate and blood pressure.",
+  "variations": [
+    "They slow down heart activity.",
+    "Used to treat hypertension.",
+    "Help manage heart conditions."
+  ]
+},
+{
+  "id": 94,
+  "topic": "cardiology",
+  "type": "treatment",
+  "text": "ACE inhibitors relax blood vessels and improve blood flow.",
+  "variations": [
+    "These drugs lower blood pressure.",
+    "They improve circulation.",
+    "Used in heart disease treatment."
+  ]
+},
+{
+  "id": 95,
+  "topic": "cardiology",
+  "type": "procedures",
+  "text": "Cardiac catheterization helps diagnose and treat heart conditions.",
+  "variations": [
+    "This procedure examines heart vessels.",
+    "Used for diagnosis and treatment.",
+    "Helps detect blockages."
+  ]
+},
+{
+  "id": 96,
+  "topic": "cardiology",
+  "type": "procedures",
+  "text": "Heart valve repair corrects faulty valves without replacement.",
+  "variations": [
+    "Valve repair improves blood flow.",
+    "Used in valve disorders.",
+    "Restores proper function."
+  ]
+},
+{
+  "id": 97,
+  "topic": "cardiology",
+  "type": "risk_factors",
+  "text": "High blood pressure increases the risk of heart disease.",
+  "variations": [
+    "Hypertension damages arteries.",
+    "High BP strains the heart.",
+    "It is a major risk factor."
+  ]
+},
+{
+  "id": 98,
+  "topic": "cardiology",
+  "type": "risk_factors",
+  "text": "Poor diet contributes to cardiovascular problems.",
+  "variations": [
+    "Unhealthy food affects heart health.",
+    "Diet impacts cardiovascular system.",
+    "Bad eating habits increase risk."
+  ]
+},
+{
+  "id": 99,
+  "topic": "cardiology",
+  "type": "prevention",
+  "text": "Reducing stress helps protect heart health.",
+  "variations": [
+    "Stress management benefits the heart.",
+    "Relaxation reduces cardiovascular risk.",
+    "Mental health affects heart function."
+  ]
+},
+{
+  "id": 100,
+  "topic": "cardiology",
+  "type": "prevention",
+  "text": "Adequate sleep supports cardiovascular health.",
+  "variations": [
+    "Good sleep improves heart function.",
+    "Rest is important for the heart.",
+    "Sleep reduces risk factors."
+  ]
+}
